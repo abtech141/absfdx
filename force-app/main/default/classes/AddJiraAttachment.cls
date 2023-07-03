@@ -1,7 +1,7 @@
 public class AddJiraAttachment {
     public String executeCallout(string recordId, string userId) {
         
-        // Instantiate a new http object
+        // Instantiate a new http object new comment
         Http h = new Http();
         
         // Instantiate a new HTTP request, specify the method (POST) as well as the endpoint
